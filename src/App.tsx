@@ -1,11 +1,12 @@
 import { Container } from "components/Container";
+import { Search } from "components/Search";
 import { TheHeader } from "components/TheHeader";
-import React from "react";
 
 function App() {
   return (
     <Container>
       <TheHeader />
+      <Search hasError onSubmit={() => {}} />
     </Container>
   );
 }

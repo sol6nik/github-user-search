@@ -1,11 +1,13 @@
-import React from 'react';
+import { Container } from "components/Container";
+import { TheHeader } from "components/TheHeader";
+import React from "react";
 
 function App() {
-    return (
-        <div className="App">
-            <h1>Test</h1>
-        </div>
-    );
+  return (
+    <Container>
+      <TheHeader />
+    </Container>
+  );
 }
 
 export default App;

@@ -7,10 +7,10 @@ export type LocalGitHubUser = {
   blog: string;
   location: string;
   bio: string;
-  twitter: number;
-  public: number;
-  folowers: number;
-  folowing: number;
+  twitter: string;
+  repos: number;
+  followers: number;
+  following: number;
   created: string;
 };
 
@@ -23,10 +23,10 @@ export type GithubUser = {
   blog: string;
   location: string;
   bio: string;
-  twitter_username: number;
+  twitter_username: string;
   public_repos: number;
-  folowers: number;
-  folowing: number;
+  followers: number;
+  following: number;
   created_at: string;
 };
 

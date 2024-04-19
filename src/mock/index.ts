@@ -1,11 +1,11 @@
 import { LocalGitHubUser } from "types";
 
 export const defaultUser: LocalGitHubUser = {
-  login: "sol6nik",
-  avatar: "https://avatars.githubusercontent.com/u/80168295?v=4",
-  name: "Ivan Podymov",
+  login: "michey85",
+  avatar: "https://avatars.githubusercontent.com/u/36237995?v=4",
+  name: "Mikhail Nepomniashchii",
   company: "EPAM",
-  blog: "example.com",
+  blog: "mishanep.com",
   location: "Malaga",
   bio: "React/Vue developer",
   twitter: "pcgramota",
